@@ -1,4 +1,4 @@
-const sequelize = require('../database');
+const sequelize = require('../src/database');
 
 const Product = require('./Product');
 const Category = require('./Category');

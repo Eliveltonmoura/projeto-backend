@@ -20,6 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Eliveltonmoura/projeto-backend"
-  }
+    "url": "git+https://github.com/Eliveltonmoura/projeto-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Eliveltonmoura/projeto-backend/issues"
+  },
+  "homepage": "https://github.com/Eliveltonmoura/projeto-backend#readme"
 }
