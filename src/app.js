@@ -1,6 +1,6 @@
 require('dotenv').config();
 const express = require('express')
-const { sequelize } = require('../models')
+const { sequelize } = require('./models')
 const app = express()
 app.use(express.json());
 const port = process.env.PORT || 3000;
@@ -10,11 +10,11 @@ app.listen(port, () => {
 })
 
 // app.js ou index.js
-const sequelizeDb = require('./database');
+const sequelizeDb = require('./databaseS');
 
-const userRoutes = require('../routes/user');
-const categoryRoutes = require('../routes/category');
-const productRoutes = require('../routes/product');
+const userRoutes = require('./routes/user');
+const categoryRoutes = require('./routes/category');
+const productRoutes = require('./routes/product');
 
 app.use('/v1/user', userRoutes);
 app.use('/v1/category', categoryRoutes);
