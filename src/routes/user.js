@@ -4,7 +4,7 @@ const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const { secret, expiresIn } = require('../config/jwt');
-const authenticateToken = require('../middleware/auth');
+const authenticateToken = require('../config/middleware/auth'); //../middleware/auth
 
 router.post('/token', async (req, res) => {
     const { email, password } = req.body;

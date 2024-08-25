@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 const Product = require('../models/Product');
 const Category = require('../models/Category');
-const authenticateToken = require('../middleware/auth');
+const authenticateToken = require('../config/middleware/auth');
 
 const { Op } = require('sequelize');
 

@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Category = require('../models/Category');
-const authenticateToken = require('../middleware/auth');
+const authenticateToken = require('../config/middleware/auth');
 
 // Requisito 01 - GET /v1/category/search
 router.get('/search', authenticateToken, async (req, res) => {
