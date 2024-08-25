@@ -1,7 +1,7 @@
 const sequelize = require('../database');
 
-const Product = require('./models/Product');
-const Category = require('./models/Category');
+const Product = require('../models/Product');
+const Category = require('../models/Category');
 const ProductCategory = require('../models/ProductCategory');
 
 // Definindo associações

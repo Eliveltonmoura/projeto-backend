@@ -10,7 +10,7 @@ app.listen(port, () => {
 })
 
 // app.js ou index.js
-const sequelizeDb = require('./databaseS');
+const sequelizeDb = require('./database');
 
 const userRoutes = require('./routes/user');
 const categoryRoutes = require('./routes/category');
